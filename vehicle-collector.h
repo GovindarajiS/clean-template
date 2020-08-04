@@ -1,7 +1,7 @@
 enum measure {
- float motor_temp;
- float battery_pc;
- float battery_temp;
+ motor_temp;
+ battery_pc;
+ battery_temp;
 };
 
 struct telematics {
