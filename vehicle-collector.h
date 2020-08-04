@@ -7,7 +7,7 @@ enum measure {
 struct telematics {
   int vehicle_id;
   int type;
-  float measurement;
+  measure measurement;
 };
 
 struct inventory {
@@ -17,7 +17,7 @@ struct inventory {
   float battery_temp;
 };
 
-telematics_value_passing_to_inventory(struct telematics t) {
+telematics_value_passing_to_inventory(telematics t) {
 
 struct inventory i;
 
